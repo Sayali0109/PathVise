@@ -1,10 +1,3 @@
-import React from 'react'
-
-const MainLayout = ({children}) => {
-//redirect to onboarding
-  
-    <div className="container mx-auto mt-24 mb-20">{children}</div>;
-  
-};
-
-export default MainLayout;
+export default function MainLayout({ children }) {
+    return <div className="container mx-auto mt-24 mb-20">{children}</div>;
+  }

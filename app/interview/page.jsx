@@ -7,7 +7,7 @@ export default async function InterviewPrepPage() {
   const assessments = await getAssessments();
 
   return (
-    <div>
+    <div className="mt-20">
       <div className="flex items-center justify-between mb-5">
         <h1 className="text-6xl font-bold gradient-title">
           Interview Preparation
